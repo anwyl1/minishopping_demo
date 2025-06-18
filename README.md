@@ -1,0 +1,1 @@
+# minishopping_demo
