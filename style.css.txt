@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mini Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Mini Shop!</h1>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/150">
+    <h2>Product 1</h2>
+    <p>$10</p>
+    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/150">
+    <h2>Product 2</h2>
+    <p>$15</p>
+    <button onclick="addToCart('Product 2', 15)">Add to Cart</button>
+  </div>
+
+  <a href="cart.html">Go to Cart</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

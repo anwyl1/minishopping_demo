@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Checkout</h1>
+  <form>
+    Name: <input type="text"><br><br>
+    Address: <input type="text"><br><br>
+    <button type="submit">Place Order</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Your Cart</h1>
+  <ul id="cart-items"></ul>
+  <p id="total"></p>
+  <a href="checkout.html">Checkout</a>
+
+  <script>
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const cartList = document.getElementById("cart-items");
+    let total = 0;
+
+    cart.forEach(item => {
+      let li = document.createElement("li");
+      li.textContent = `${item.name} - $${item.price}`;
+      cartList.appendChild(li);
+      total += item.price;
+    });
+
+    document.getElementById("total").textContent = "Total: $" + total;
+  </script>
+</body>
+</html>
